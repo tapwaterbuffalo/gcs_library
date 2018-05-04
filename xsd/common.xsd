@@ -43,6 +43,16 @@
 		</xs:complexType>
 	</xs:element>
 
+	<xs:element name="edge_protection">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element ref="amount" />
+				<xs:element name="damage_type" type="xs:string" />
+				<xs:element name="location" type="xs:string" />
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+
 	<xs:element name="attribute_bonus">
 		<xs:complexType>
 			<xs:choice maxOccurs="unbounded">

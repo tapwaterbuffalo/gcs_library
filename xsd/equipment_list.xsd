@@ -25,6 +25,7 @@
 				<xs:element ref="melee_weapon" />
 				<xs:element ref="skill_bonus" />
 				<xs:element ref="dr_bonus" />
+				<xs:element ref="edge_protection" />
 				<xs:element name="description" type="xs:string" />
 				<xs:element name="legality_class" type="xs:string" />
 				<xs:element name="value" type="xs:string" />
@@ -49,6 +50,7 @@
 				<xs:element ref="spell_bonus" />
 				<xs:element ref="weapon_bonus" />
 				<xs:element ref="dr_bonus" />
+				<xs:element ref="edge_protection" />
 				<xs:element ref="melee_weapon" />
 				<xs:element ref="ranged_weapon" />
 				<xs:element name="quantity" type="IntegerWithCompareAttribute" />
